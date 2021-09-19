@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cc *.c -o pak
+cc -Isrc src/*.c -o pak
